@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/enter_the_amount"
-            android:inputType="text" />
+            android:inputType="numberDecimal" />
 
         <TextView
             android:id="@+id/idPaxText"
@@ -39,7 +39,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="@string/enter_the_number_of_pax"
-            android:inputType="text" />
+            android:inputType="number" />
     </LinearLayout>
 
     <LinearLayout
@@ -83,7 +83,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/enter_the_discount"
-            android:inputType="text" />
+            android:inputType="number" />
     </LinearLayout>
 
     <RadioGroup
